@@ -2,6 +2,7 @@ import React from 'react';
 import { useFetchProjects } from './fetchProjects';
 
 const Projects = () => {
+
   const { loading, projects } = useFetchProjects();
 
   if (loading) {
